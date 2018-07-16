@@ -19,6 +19,7 @@ export class CreateTodoComponent implements OnInit {
     this.arrays = [];
   }
 
+
   addTask() {
     if (this.validate()) {
     this.array.title = this.title;
